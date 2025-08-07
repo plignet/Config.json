@@ -25,7 +25,7 @@
   ],
   "Networks": [
     {
-      "Name": "╰┈[☞>📱 🟣𝗩𝗜𝗩𝗢 FRONT 01 📡",
+      "Name": "╰┈[☞>📱 🟣𝗩𝗜𝗩𝗢 FRONT 01 Pli📡",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.5[crlf]Host: [rotate=cdn7.frontdotheroms.com;cdn1.megalodonssh.shop;cdn9.frontdotheroms.com][crlf]backend: app38[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
