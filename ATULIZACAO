@@ -1,0 +1,48 @@
+{
+  "Version": "190.0.0",
+  "ReleaseNotes": "Nova opção TIM adicionada. Atualizem e testem seus DDDs (27/08/23)",
+  "UrlUpdate": "https://raw.githubusercontent.com/plignet/Config.json/main/Config.json",
+  "CheckUser": "true",
+  "BackgroundLink": "https://i.ibb.co/d43Wvqx/d43Wvqx.png",
+  "LogoLink": "https://i.ibb.co/BLFC3h1/BLFC3h1.png",
+  "UdpPort": "7300;7500;7600;7599;7200;7777;9999",
+  "Sms": "https://raw.githubusercontent.com/plignet/Config.json/main/Config.json",
+  "EmailFeedback": "megalodonssh@gmail.com",
+  "UrlContato": "",
+  "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
+  "Servers": [
+    {
+      "Name": "SERVIDOR BR",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "megalodonssh.shop",
+      "CheckUser": "http://209.14.68.48:5050/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "╰┈[☞>📱 🟣𝗩𝗜𝗩𝗢 FRONT 01 📡",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.5[crlf]Host: [rotate=cdn7.frontdotheroms.com;cdn1.megalodonssh.shop;cdn9.frontdotheroms.com][crlf]backend: app38[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "99.84.31.39",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "╰┈[☞>📱 🟡 Oi REGIÃO 04",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "oii.gdmhost.ga",
+      "TlsIP": "oii.gdmhost.ga",
+      "ProxyIP": "oii.gdmhost.ga",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    }
+  ]
+}
